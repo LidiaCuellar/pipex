@@ -6,7 +6,7 @@
 /*   By: lcuellar <lcuellar@student42.madrid>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 21:48:34 by lcuellar          #+#    #+#             */
-/*   Updated: 2024/04/05 16:31:24 by lcuellar         ###   ########.fr       */
+/*   Updated: 2024/06/30 22:11:58 by lcuellar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,5 @@ void		initialize(t_pipex *pipex, int argc, char **argv, char **env);
 void		open_tube(t_pipex *pipex);
 void		close_tube(t_pipex *pipex);
 void		get_path(t_pipex *pipex);
-void		ft_error(char *str);
 
 #endif
